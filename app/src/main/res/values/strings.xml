@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workshop_recommended">NOSSA SUGESTÃO PARA VOCÊ</string>
+    <string name="workshop_full">Oficina lotada</string>
+    <string name="workshop_search_button">Pesquisar local</string>
+    <string name="workshop_change_search_near">Mais próximos</string>
+    <string name="workshop_change_search_score">Recomendados</string>
+    <string name="error_dialog_payment">Não foi possível efetuar essa operação, tente novamente mais tarde</string>
+    <string name="valor_franquia">Valor da Franquia: %s</string>
+    <string name="clube_baloes">A Liberty se preocupa\nem oferecer vantagens que\nvão além do seguro contratado.</string>
+    <string name="clube_familia">Por isso, clientes e corretores\nfazem parte do clube +Liberty,\ncom vantagens que fazem toda\na diferença na hora de economizar\ne aproveitar com a família</string>
+    <string name="clube_oportunidades">São diversas oportunidades\nexclusivas para usar no seu\ndia a dia.</string>
+    <string name="clube_oportunidades_itens">
+        • <b>Fácil</b> de usar\n
+        • <b>200</b> parceiros\n
+        • Compras <b>Online</b> e <b>Físicas</b>\n
+        • Descontos de até <b>60%</b>\n
+        • Acesso <b>gratuito</b>\n
+    </string>
+    <string name="clube_final_logado">Aceite os novos termos e condições\npara aproveitar as vantagens\nque preparamos para você!</string>
+    <string name="clube_final_nao_logado">Faça seu login ou cadastre-se\nno App para aproveitar as vantagens\nque preparamos para você!</string>
+    <string name="novos_termos">Concordo com os novos\n<u>termos, condições e política de privacidade</u> </string>
+    <string name="acessar_club_button">ACESSAR O +LIBERTY</string>
+    <string name="tratamento_dados">Tratamento De Dados</string>
+    <string name="acessar_canal_comunicacao">Acessar Canal de Comunicação</string>
+    <string name="lgpd_grupo_liberty">O Grupo Liberty está adequado à lei no. 13.709 de 14 de Agosto de 2018 e portanto os seus dados pessoais serão utilizados único e exclusivamente para a finalidade proposta. Qualquer dúvida sobre o tratamento dos seus dados pessoais, por favor entre em contato conosco pelo nosso </string>
+    <string name="lgpd_grupo_liberty_link">canal de comunicação</string>
+    <string name="dispositivo_rooted">Smartphones com alterações de software não podem realizar alterações de pagamento. Acesse Meu Espaço na web.</string>
+    <string name="crc">2639490455</string>
+    <string name="password_expired">SUA SENHA FOI EXPIRADA!</string>
+    <string name="password_expired_text">Atenção, sua senha foi expirada por conta de uma nova política de segurança da Liberty. Após clicar no botão abaixo, você será redirecionado para cadastrar a sua nova senha. Cadastre o quanto antes para ter acesso ao App da Liberty.</string>
+
+</resources>

@@ -1,0 +1,46 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        kotlin_version = '1.4.10'
+    }
+    repositories {
+        google()
+        maven {
+            url "https://maven.google.com"
+        }
+
+        mavenCentral()
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.google.gms:google-services:4.3.5'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.5.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+
+
+
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "http://salesforce-marketingcloud.github.io/JB4A-SDK-Android/repository" }
+        maven { url "https://jitpack.io" }
+        maven {
+            url 'https://s3.amazonaws.com/sdk-ga-releases.cloudmi.datami.com/android/mvn/smisdk/'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+//System.setProperty('javax.net.ssl.trustStore', "C:\\cacerts")
+//System.setProperty('javax.net.ssl.trustStorePassword', '')
+//System.setProperty('sun.security.ssl.allowUnsafeRenegotiation','true')
+//System.setProperty('com.sun.security.enableAIAcaIssuers','true')
